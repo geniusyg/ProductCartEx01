@@ -14,7 +14,7 @@
 #import "CartCell.h"
 #import "ProductDetailViewController.h"
 
-@interface ViewController () <UITableViewDataSource, UITableViewDelegate, CartDelegate>
+@interface ViewController () <UITableViewDataSource, UITableViewDelegate, CartCellDelegate, ProductCellDelegate>
 @property (weak, nonatomic) IBOutlet UINavigationItem *navi;
 
 

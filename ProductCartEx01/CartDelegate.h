@@ -13,8 +13,21 @@
 
 - (void)addItem:(id)sender;
 
+@end
+
+@protocol CartDelegate <NSObject>
 
 - (void)incQuantity:(NSString *)productCode;
 - (void)decQuantity:(NSString *)productCode;
 
 @end
+
+
+
+
+
+
+
+
+
+
